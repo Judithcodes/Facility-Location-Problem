@@ -311,7 +311,6 @@ void FLP::SA() {
   vector<int> bestFacilityChosen;
 
   // 初始化工厂开放状态
-  
   for (int i = 0; i < facilityNum; i++) {
     double ratio = rand() % 100 / (double)101;
     if (ratio < 0.5) {

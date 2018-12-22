@@ -1,1 +1,1 @@
-for /l %%i in (1, 1, 71) do test.exe < ./Instances/p%%i > ./SA/out%%i.txt
+for /l %%i in (41, 1, 71) do test.exe < ./Instances/p%%i > ./SA2/out%%i.txt

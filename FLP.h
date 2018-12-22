@@ -38,7 +38,7 @@ private:
   vector<int> openState; // 工厂开放状态
   vector<int> totalCost; // 工厂总支出
   vector<int> facilityChosen; // 顾客选择的工厂
-  // 测试
+  // 约束条件
   vector<bool> isSatisfied; // 顾客是否满足
 };
 
